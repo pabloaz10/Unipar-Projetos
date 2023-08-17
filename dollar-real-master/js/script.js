@@ -63,7 +63,7 @@ function converter() {
     if (dollar.value == 0 ) {
         alert(`digite um valor`)
     } else {
-        resultado.innerHTML = `R$${dollar.value} hoje é o mesmo que $${resulFinal}`
+        resultado.innerHTML = `$${dollar.value} hoje é o mesmo que R$${resulFinal}`
         dollar.value = ''
         dollar.focus()           
     }
