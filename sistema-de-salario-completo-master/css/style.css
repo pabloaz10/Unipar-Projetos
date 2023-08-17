@@ -1,0 +1,22 @@
+body {
+    margin: 20px;
+    padding: 20px;
+    height: 500px;
+    width: 500px;
+    background-color: aquamarine;
+    text-align: center;
+} #principal {
+    height: 500px;
+    width: 350px;
+    background-color: rgb(102, 223, 132);
+    font: comic 15px;
+}
+#btcalcular {
+    width: 150px;
+    height: 20px;
+} input {
+    background-color: rgb(102, 223, 132);
+    border: 0;
+    padding: 0;
+    margin: 10px;
+} 

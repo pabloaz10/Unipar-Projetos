@@ -1,0 +1,74 @@
+body {
+    font: normal 15px arial;
+    margin-left: auto;
+    background-image: url(/dollar-real-master/imagens/);
+    background-size: cover;
+    text-align: center;
+    text-decoration-color: seashell;
+}
+h1 {
+    font: white;
+    font-style: normal rgb(212, 209, 209);
+    font-size: larger;
+}
+marquee#cotacao {
+    margin: 5px auto;
+    background-color:#d1d2d66e ;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 5px #444446;
+    border-radius: 10px;
+    height: 20px;
+    
+}
+section#principal {
+    padding: 15px;
+    margin: auto;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    background-color: #f2f3f76e;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px rgb(40, 107, 119);   
+}
+section#moedas {
+    text-align: center;
+    margin: auto;
+    image-rendering: auto;
+}
+button {
+    text-align: center;
+    width: 80px;
+    height: 35px;
+    background-color: rgb(33, 196, 236);
+    box-sizing: border-box;
+    margin: 5px auto;
+    font: 400 14px Arial;
+    border-width: 2px;
+    border-radius: 20px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+} 
+div#moedas {
+    margin: 10px;
+}
+input#ndolar {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    cursor: text;
+    font: 400 14px Arial;
+    padding: 5px 0px;
+    border-radius: 20px;
+    border-width: 0px;
+    background-color: rgb(207, 207, 209);
+ 
+   
+}
+ div#resultado {
+    margin: 5px auto;
+    background-color:#d1d2d66e ;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 5px #444446;
+    border-radius: 10px;
+    height: 20px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolar em Real</title>
+    <link rel="stylesheet" href="css/stylo.css">
+    
+</head>
+<body onload="changeBackground()" >
+    <h1></h1>
+    <section id="principal">
+        <div ><marquee id="cotacao"></marquee>
+        </div>
+        <section id="moedas">
+            <img src="imagens/Dollar.png" width="100px" alt="Dolar" id="imgdolar">
+            <!--<input type="number" id="nreal"></input> -->
+        </section>
+        <div>
+            <input type="number" id="ndolar" placeholder="Digite um valor em real"></input>
+        </div>
+        <button type="button" onclick="converter()">converter</button>
+        <div id="resultado"></div>
+    </section>
+   <script src="/dollar-real-master/js/script.js"></script> 
+</body>
+<footer></footer>
+</html>

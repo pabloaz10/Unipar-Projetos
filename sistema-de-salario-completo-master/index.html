@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Salario</title>
+    <link rel="stylesheet" href="css/teste-style.css">
+</head>
+<body>
+    <h1><strong>Calculadora de Salário</strong></h1>
+    <div class="wrapper">
+        <button id="btcalcular" value="calcular" onclick="calcularSalario()">Calcular Salario</button>
+        <div class="three">DATA:
+
+        </div>
+        <div class="four">HORA:
+
+        </div>
+        <div class="five">Hora calculo: 220
+
+        </div>
+        <div class="six">Hora Extra Calculo: 60%
+
+        </div>
+        <input class="six-one" type="number" id="sal" placeholder="Salário Base"></input>
+        <input class="six-two" type="number" id="horaExtra" placeholder="Hora Extra"></input>
+        <input class="six-three" type="number" id="horaFaltas" placeholder="Faltas(horas)"></input>
+        <input class="six-four" type="number" id="dependentes" placeholder="Dependentes"></input>
+        <input class="six-five" type="checkbox" id="checkvt" name="checkboxvt" ></input>
+        <label class="six-six">V. Transporte</label>
+      </div>
+      <div class="result">
+        <div class="description">
+            <h2>Descrição</h2>
+            <div id="descsalario">Salário Base</div>
+            <div id="descextra">Hora Extra</div>
+            <div id="descfaltas">Faltas</div>
+            <div id="descinss">INSS</div>
+            <div id="descIRRF">IRRF</div>
+            <div id="descvale-transporte">Vale Transporte</div>
+        </div>
+        
+        <div class="maturity"><h2>Vencimentos</h2>
+            <div id="ressalario">0</div>
+            <div id="resextra">0</div>
+            <div id="resfaltas">0</div>
+            <div id="resinss"></div>
+            <div id="resIRRF">0</div>
+            <div id="resvale-transporte">0</div>
+        </div>
+        <div class="deduction"><h2>Descontos</h2>
+            <div id="descontosal">0</div>
+            <div id="descontoextra">0</div>
+            <div id="descontofaltas">0</div>
+            <div id="descontoINSS">0</div>
+            <div id="descontoIRRF">0</div>
+            <div id="desconto-vale-transporte">0</div>
+        </div>
+      </div>
+    <div class="footer">
+          <div class="salary" id="salarioliquido">R$0,00</div>
+    </div>
+</div>
+    <script src="/sistema-de-salario-completo-master/js/calculadora.js"></script>
+</body>
+</html>

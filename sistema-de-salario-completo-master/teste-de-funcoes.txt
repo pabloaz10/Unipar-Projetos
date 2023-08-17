@@ -1,0 +1,24 @@
+contas do irrf
+	salarioBaseIRRF=salario-inss-dependentes(=0 inicial)
+	baseAjustado>FaixaAliquota
+		
+faixa1=0               0%               até 1903,98
+faixa2=69.20           7,5%             de 1903,99 a 2826,65
+faixa3=138.66          15%              de 2826,66 a 3751,05
+faixa4=205.57          22,5%            de 3751,06 a 4664,68
+faixa5=                27,5%            a partir de 4664,69 
+
+if (salarioBaseIRRF<=faixa[0]) {
+	irrfCalculo = 0
+} else if (salarioBaseIRRF<=faixa[1]) {
+	restoIRRF=salario.value-faixa[0]
+	irrfCalculo = 69.20+restoIRRF
+} else if (salarioBaseIRRF<=faixa[2]) {
+	
+} else if (salarioBaseIRRF<=faixa[3]) {
+
+
+
+
+conta faixa 1
+salarioirrf*0.075=irrf a pagar
