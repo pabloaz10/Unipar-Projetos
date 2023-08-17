@@ -9,7 +9,7 @@ Projetos desenvolvidos nas aulas de Análise e desenvolvimento de sistemas e alg
 
 ## Sobre os projetos
 
-### clone Netflix
+### Clone Netflix
 
   clone da netflix foi desenvolvido em um workshop ofertado pela unipar e pelo professor Luiz Paulo.
   
