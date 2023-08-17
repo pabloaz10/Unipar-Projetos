@@ -20,3 +20,5 @@ Projetos desenvolvidos nas aulas de Análise e desenvolvimento de sistemas e alg
 ### Conversor de moeda
 
   Aplicação basica que utiliza de uma API para fazer calculos de conversão de dolar para o real.
+
+[Videos sobre os projetos](https://drive.google.com/drive/folders/1fi3w4Ez_bX3tYXj8UDcWdQ9kFCNoVib0?usp=sharing)
